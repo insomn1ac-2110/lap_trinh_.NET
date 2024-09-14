@@ -1,0 +1,174 @@
+  Tìm hiểu Kế thừa và Đa hình trong C#
+Trong C#, kế thừa (inheritance) và đa hình (polymorphism) là hai khái niệm quan trọng trong lập trình hướng đối tượng. Dưới đây là giải thích chi tiết và ví dụ về cả hai khái niệm:
+
+1. Kế thừa (Inheritance)
+Kế thừa là khả năng một lớp (class) có thể kế thừa các thuộc tính và phương thức từ một lớp khác. Lớp kế thừa (derived class) có thể sử dụng lại hoặc mở rộng các đặc điểm của lớp cha (base class).
+Công dụng của Kế thừa:
+•	Tái sử dụng mã nguồn: Các lớp con không cần phải viết lại mã nguồn của lớp cha.
+•	Giảm thiểu trùng lặp: Các phương thức và thuộc tính chung có thể được định nghĩa trong lớp cha và được chia sẻ cho các lớp con.
+Ví dụ về Kế thừa trong C# 
+// Lớp cha (lớp cơ sở)
+public class DongVat
+{
+    public string Ten { get; set; }
+
+    public void Keu()
+    {
+        Console.WriteLine($"{Ten} đang phát ra âm thanh.");
+    }
+}
+
+// Lớp con (lớp dẫn xuất) kế thừa từ lớp DongVat
+public class Cho : DongVat
+{
+    public void Sua()
+    {
+        Console.WriteLine($"{Ten} đang sủa.");
+    }
+}
+
+public class ChuongTrinh
+{
+    public static void Main()
+    {
+        Cho cho = new Cho();
+        cho.Ten = "Buddy";
+        cho.Keu();  // Kế thừa từ lớp cha
+        cho.Sua();  // Đặc điểm riêng của lớp con
+    }
+}
+
+Output:
+Buddy đang phát ra âm thanh.
+Buddy đang sủa.
+
+ 
+2. Đa hình (Polymorphism)
+Đa hình cho phép đối tượng có thể được xử lý theo nhiều dạng khác nhau. Trong C#, có hai loại đa hình chính:
+
+•	Đa hình tĩnh (Compile-time Polymorphism): Thường thông qua method overloading (nạp chồng phương thức). Các phương thức có cùng tên nhưng khác nhau về kiểu hoặc số lượng tham số.
+
+•	Đa hình động (Run-time Polymorphism): Được hiện thực qua method overriding (ghi đè phương thức), cho phép lớp con thay thế phương thức của lớp cha.
+
+Ví dụ về Đa hình tĩnh (Compile-time Polymorphism) - Method Overloading
+public class MayTinh
+{
+    public int Cong(int a, int b)
+    {
+        return a + b;
+    }
+
+    public double Cong(double a, double b)
+    {
+        return a + b;
+    }
+}
+
+public class ChuongTrinh
+{
+    public static void Main()
+    {
+        MayTinh mayTinh = new MayTinh();
+        Console.WriteLine(mayTinh.Cong(5, 3));       // Gọi phương thức với kiểu int
+        Console.WriteLine(mayTinh.Cong(5.5, 3.2));   // Gọi phương thức với kiểu double
+    }
+}
+
+ 
+Output:
+8
+8.7
+
+ 
+Ví dụ về Đa hình động (Run-time Polymorphism) - Method Overriding
+// Lớp cha
+public class DongVat
+{
+    public virtual void Keu()
+    {
+        Console.WriteLine("Động vật đang phát ra âm thanh.");
+    }
+}
+
+// Lớp con ghi đè phương thức Keu
+public class Cho : DongVat
+{
+    public override void Keu()
+    {
+        Console.WriteLine("Chó đang sủa.");
+    }
+}
+
+public class ChuongTrinh
+{
+    public static void Main()
+    {
+        DongVat dongVat = new DongVat();
+        DongVat cho = new Cho();  // Đa hình động
+
+        dongVat.Keu();  // Gọi phương thức của lớp DongVat
+        cho.Keu();      // Gọi phương thức của lớp Cho
+    }
+}
+
+ 
+Output:
+ Động vật đang phát ra âm thanh.
+Chó đang sủa.
+
+3. So sánh và Ứng dụng
+So sánh giữa Kế thừa và Đa hình:
+Điểm giống nhau:
+•	Cả hai đều là nguyên tắc của lập trình hướng đối tượng.
+•	Cả hai đều giúp tái sử dụng mã và làm mã nguồn dễ quản lý hơn.
+Điểm khác nhau:
+•	Kế thừa liên quan đến mối quan hệ giữa lớp cha và lớp con. Lớp con kế thừa đặc tính của lớp cha.
+•	Đa hình liên quan đến khả năng đối tượng có thể được sử dụng dưới nhiều hình thức khác nhau, giúp mã linh hoạt hơn.
+Ứng dụng thực tế:
+•	Kế thừa: Sử dụng khi bạn có các lớp có đặc điểm chung và muốn tái sử dụng mã. Ví dụ: Lớp Vehicle (Phương tiện) có thể là lớp cha của các lớp Car (Ô tô) và Bike (Xe đạp).
+•	Đa hình: Dùng để tạo ra mã linh hoạt. Ví dụ: Hệ thống tính lương trong đó các loại nhân viên khác nhau (full-time, part-time) có cách tính lương khác nhau, nhưng vẫn được gọi chung thông qua một phương thức tính lương.
+
+Ví dụ về Kế thừa và Đa hình kết hợp trong thực tế 
+public class NhanVien
+{
+    public string Ten { get; set; }
+
+    public virtual void TinhLuong()
+    {
+        Console.WriteLine("Tính lương cho nhân viên.");
+    }
+}
+
+public class NhanVienToanThoiGian : NhanVien
+{
+    public override void TinhLuong()
+    {
+        Console.WriteLine("Tính lương cho nhân viên toàn thời gian.");
+    }
+}
+
+public class NhanVienBanThoiGian : NhanVien
+{
+    public override void TinhLuong()
+    {
+        Console.WriteLine("Tính lương cho nhân viên bán thời gian.");
+    }
+}
+
+public class ChuongTrinh
+{
+    public static void Main()
+    {
+        NhanVien nhanVienToanThoiGian = new NhanVienToanThoiGian();
+        NhanVien nhanVienBanThoiGian = new NhanVienBanThoiGian();
+
+        nhanVienToanThoiGian.TinhLuong();  // Đa hình động
+        nhanVienBanThoiGian.TinhLuong();   // Đa hình động
+    }
+}
+
+Output:
+Tính lương cho nhân viên toàn thời gian.
+Tính lương cho nhân viên bán thời gian.
+
+ 
