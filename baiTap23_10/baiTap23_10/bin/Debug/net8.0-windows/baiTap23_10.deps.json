@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "baiTap23_10/1.0.0": {
+        "runtime": {
+          "baiTap23_10.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "baiTap23_10/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
