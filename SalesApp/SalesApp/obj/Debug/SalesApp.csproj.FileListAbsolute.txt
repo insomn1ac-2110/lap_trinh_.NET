@@ -1,0 +1,9 @@
+C:\Users\fpt20\source\repos\SalesApp\SalesApp\obj\Debug\SalesApp.csproj.AssemblyReference.cache
+C:\Users\fpt20\source\repos\SalesApp\SalesApp\obj\Debug\SalesApp.Properties.Resources.resources
+C:\Users\fpt20\source\repos\SalesApp\SalesApp\obj\Debug\SalesApp.csproj.GenerateResource.cache
+C:\Users\fpt20\source\repos\SalesApp\SalesApp\obj\Debug\SalesApp.csproj.CoreCompileInputs.cache
+C:\Users\fpt20\source\repos\SalesApp\SalesApp\bin\Debug\SalesApp.exe.config
+C:\Users\fpt20\source\repos\SalesApp\SalesApp\bin\Debug\SalesApp.exe
+C:\Users\fpt20\source\repos\SalesApp\SalesApp\bin\Debug\SalesApp.pdb
+C:\Users\fpt20\source\repos\SalesApp\SalesApp\obj\Debug\SalesApp.exe
+C:\Users\fpt20\source\repos\SalesApp\SalesApp\obj\Debug\SalesApp.pdb
