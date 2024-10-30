@@ -1,0 +1,6 @@
+C:\Users\fpt20\source\repos\30--10\30--10\obj\Debug\net8.0-windows\_30__10.MainForm.resources
+C:\Users\fpt20\source\repos\30--10\30--10\obj\Debug\net8.0-windows\30--10.csproj.GenerateResource.cache
+C:\Users\fpt20\source\repos\30--10\30--10\obj\Debug\net8.0-windows\30--10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fpt20\source\repos\30--10\30--10\obj\Debug\net8.0-windows\30--10.AssemblyInfoInputs.cache
+C:\Users\fpt20\source\repos\30--10\30--10\obj\Debug\net8.0-windows\30--10.AssemblyInfo.cs
+C:\Users\fpt20\source\repos\30--10\30--10\obj\Debug\net8.0-windows\30--10.csproj.CoreCompileInputs.cache
