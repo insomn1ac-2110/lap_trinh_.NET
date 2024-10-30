@@ -1,0 +1,5 @@
+C:\Users\fpt20\source\repos\BaiKiemTra1\BaiKiemTra1\obj\Debug\BaiKiemTra1.csproj.AssemblyReference.cache
+C:\Users\fpt20\source\repos\BaiKiemTra1\BaiKiemTra1\obj\Debug\BaiKiemTra1.Properties.Resources.resources
+C:\Users\fpt20\source\repos\BaiKiemTra1\BaiKiemTra1\obj\Debug\BaiKiemTra1.csproj.GenerateResource.cache
+C:\Users\fpt20\source\repos\BaiKiemTra1\BaiKiemTra1\obj\Debug\BaiKiemTra1.csproj.CoreCompileInputs.cache
+C:\Users\fpt20\source\repos\BaiKiemTra1\BaiKiemTra1\obj\Debug\BaiKiemTra1.MainForm.resources
