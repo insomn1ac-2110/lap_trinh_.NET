@@ -1,0 +1,9 @@
+C:\Users\fpt20\source\repos\QuanLyKhachHang\QuanLyKhachHang\obj\Debug\QuanLyKhachHang.csproj.AssemblyReference.cache
+C:\Users\fpt20\source\repos\QuanLyKhachHang\QuanLyKhachHang\obj\Debug\QuanLyKhachHang.Properties.Resources.resources
+C:\Users\fpt20\source\repos\QuanLyKhachHang\QuanLyKhachHang\obj\Debug\QuanLyKhachHang.csproj.GenerateResource.cache
+C:\Users\fpt20\source\repos\QuanLyKhachHang\QuanLyKhachHang\obj\Debug\QuanLyKhachHang.csproj.CoreCompileInputs.cache
+C:\Users\fpt20\source\repos\QuanLyKhachHang\QuanLyKhachHang\bin\Debug\QuanLyKhachHang.exe.config
+C:\Users\fpt20\source\repos\QuanLyKhachHang\QuanLyKhachHang\bin\Debug\QuanLyKhachHang.exe
+C:\Users\fpt20\source\repos\QuanLyKhachHang\QuanLyKhachHang\bin\Debug\QuanLyKhachHang.pdb
+C:\Users\fpt20\source\repos\QuanLyKhachHang\QuanLyKhachHang\obj\Debug\QuanLyKhachHang.exe
+C:\Users\fpt20\source\repos\QuanLyKhachHang\QuanLyKhachHang\obj\Debug\QuanLyKhachHang.pdb
