@@ -1,0 +1,14 @@
+C:\Users\fpt20\Downloads\School time\C#\MobileShop\MobileShop\bin\Debug\MobileShop.exe.config
+C:\Users\fpt20\Downloads\School time\C#\MobileShop\MobileShop\bin\Debug\MobileShop.exe
+C:\Users\fpt20\Downloads\School time\C#\MobileShop\MobileShop\bin\Debug\MobileShop.pdb
+C:\Users\fpt20\Downloads\School time\C#\MobileShop\MobileShop\obj\Debug\MobileShop.csproj.AssemblyReference.cache
+C:\Users\fpt20\Downloads\School time\C#\MobileShop\MobileShop\obj\Debug\MobileShop.Properties.Resources.resources
+C:\Users\fpt20\Downloads\School time\C#\MobileShop\MobileShop\obj\Debug\MobileShop.csproj.GenerateResource.cache
+C:\Users\fpt20\Downloads\School time\C#\MobileShop\MobileShop\obj\Debug\MobileShop.csproj.CoreCompileInputs.cache
+C:\Users\fpt20\Downloads\School time\C#\MobileShop\MobileShop\obj\Debug\MobileShop.exe
+C:\Users\fpt20\Downloads\School time\C#\MobileShop\MobileShop\obj\Debug\MobileShop.pdb
+C:\Users\fpt20\Downloads\School time\C#\MobileShop\MobileShop\bin\Debug\EntityFramework.dll
+C:\Users\fpt20\Downloads\School time\C#\MobileShop\MobileShop\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\fpt20\Downloads\School time\C#\MobileShop\MobileShop\bin\Debug\EntityFramework.xml
+C:\Users\fpt20\Downloads\School time\C#\MobileShop\MobileShop\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\fpt20\Downloads\School time\C#\MobileShop\MobileShop\obj\Debug\MobileShop.csproj.Up2Date
